@@ -19,6 +19,8 @@
 		BFA5006E1B442B8C003BF7E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA500561B442B8C003BF7E2 /* UIKit.framework */; };
 		BFA500761B442B8C003BF7E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFA500741B442B8C003BF7E2 /* InfoPlist.strings */; };
 		BFA500781B442B8C003BF7E2 /* BoomEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA500771B442B8C003BF7E2 /* BoomEatTests.m */; };
+		BFA500851B442CCB003BF7E2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA500821B442CCB003BF7E2 /* BaseViewController.m */; };
+		BFA500861B442CCB003BF7E2 /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA500841B442CCB003BF7E2 /* PathViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		BFA500731B442B8C003BF7E2 /* BoomEatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoomEatTests-Info.plist"; sourceTree = "<group>"; };
 		BFA500751B442B8C003BF7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFA500771B442B8C003BF7E2 /* BoomEatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoomEatTests.m; sourceTree = "<group>"; };
+		BFA500811B442CCB003BF7E2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../../BoomEat1/BoomEat/BaseViewController.h; sourceTree = "<group>"; };
+		BFA500821B442CCB003BF7E2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../../BoomEat1/BoomEat/BaseViewController.m; sourceTree = "<group>"; };
+		BFA500831B442CCB003BF7E2 /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathViewController.h; path = ../../BoomEat1/BoomEat/PathViewController.h; sourceTree = "<group>"; };
+		BFA500841B442CCB003BF7E2 /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathViewController.m; path = ../../BoomEat1/BoomEat/PathViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 		BFA500581B442B8C003BF7E2 /* BoomEat */ = {
 			isa = PBXGroup;
 			children = (
+				BFA500811B442CCB003BF7E2 /* BaseViewController.h */,
+				BFA500821B442CCB003BF7E2 /* BaseViewController.m */,
+				BFA500831B442CCB003BF7E2 /* PathViewController.h */,
+				BFA500841B442CCB003BF7E2 /* PathViewController.m */,
 				BFA500611B442B8C003BF7E2 /* BEAppDelegate.h */,
 				BFA500621B442B8C003BF7E2 /* BEAppDelegate.m */,
 				BFA500641B442B8C003BF7E2 /* Images.xcassets */,
@@ -241,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA5005F1B442B8C003BF7E2 /* main.m in Sources */,
+				BFA500851B442CCB003BF7E2 /* BaseViewController.m in Sources */,
 				BFA500631B442B8C003BF7E2 /* BEAppDelegate.m in Sources */,
+				BFA500861B442CCB003BF7E2 /* PathViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +450,7 @@
 				BFA5007D1B442B8C003BF7E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA5007E1B442B8C003BF7E2 /* Build configuration list for PBXNativeTarget "BoomEatTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +459,7 @@
 				BFA500801B442B8C003BF7E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

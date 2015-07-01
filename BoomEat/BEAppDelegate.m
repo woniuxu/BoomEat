@@ -7,6 +7,7 @@
 //
 
 #import "BEAppDelegate.h"
+#import "PathViewController.h"
 
 @implementation BEAppDelegate
 
@@ -16,6 +17,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    PathViewController *pathViewController = [[PathViewController alloc]
+                                              initWithNibName:nil bundle:NULL];
+    self.window.rootViewController = pathViewController;
+    
     return YES;
 }
 
