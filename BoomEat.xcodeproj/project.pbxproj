@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25FBBF621B49538C0020B0C6 /* AssetsLibraryD.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF581B49538C0020B0C6 /* AssetsLibraryD.m */; };
+		25FBBF631B49538C0020B0C6 /* HCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF5A1B49538C0020B0C6 /* HCollectionViewCell.m */; };
+		25FBBF641B49538C0020B0C6 /* HySideScrollingImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF5C1B49538C0020B0C6 /* HySideScrollingImagePicker.m */; };
+		25FBBF651B49538C0020B0C6 /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25FBBF5D1B49538C0020B0C6 /* ImageResources.bundle */; };
+		25FBBF661B49538C0020B0C6 /* SideScrollingCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF5F1B49538C0020B0C6 /* SideScrollingCheckCell.m */; };
+		25FBBF671B49538C0020B0C6 /* SideScrollingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF611B49538C0020B0C6 /* SideScrollingLayout.m */; };
+		25FBBFC91B4966D60020B0C6 /* IQAlbumAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF721B4966D50020B0C6 /* IQAlbumAssetsViewController.m */; };
+		25FBBFCA1B4966D60020B0C6 /* IQAssetsAlbumViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF751B4966D50020B0C6 /* IQAssetsAlbumViewCell.m */; };
+		25FBBFCB1B4966D60020B0C6 /* IQAssetsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF771B4966D50020B0C6 /* IQAssetsCell.m */; };
+		25FBBFCC1B4966D60020B0C6 /* IQAssetsPickerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF7A1B4966D50020B0C6 /* IQAssetsPickerShadowView.m */; };
+		25FBBFCD1B4966D60020B0C6 /* IQCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF7C1B4966D50020B0C6 /* IQCheckmarkView.m */; };
+		25FBBFCE1B4966D60020B0C6 /* IQAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF7E1B4966D50020B0C6 /* IQAssetsPickerController.m */; };
+		25FBBFCF1B4966D60020B0C6 /* IQAudioPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF811B4966D50020B0C6 /* IQAudioPickerController.m */; };
+		25FBBFD01B4966D60020B0C6 /* IQAudioPickerController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FBBF821B4966D50020B0C6 /* IQAudioPickerController.xcassets */; };
+		25FBBFD11B4966D60020B0C6 /* IQAudioPickerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF851B4966D50020B0C6 /* IQAudioPickerUtility.m */; };
+		25FBBFD21B4966D60020B0C6 /* IQAudioPickerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF891B4966D50020B0C6 /* IQAudioPickerShadowView.m */; };
+		25FBBFD31B4966D60020B0C6 /* IQSongsAlbumViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF8C1B4966D50020B0C6 /* IQSongsAlbumViewCell.m */; };
+		25FBBFD41B4966D60020B0C6 /* IQSongsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF8E1B4966D50020B0C6 /* IQSongsCell.m */; };
+		25FBBFD51B4966D60020B0C6 /* IQSongsListTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF911B4966D50020B0C6 /* IQSongsListTableHeaderView.m */; };
+		25FBBFD61B4966D60020B0C6 /* IQSongsAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF931B4966D50020B0C6 /* IQSongsAlbumListViewController.m */; };
+		25FBBFD71B4966D60020B0C6 /* IQSongsArtistListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF951B4966D50020B0C6 /* IQSongsArtistListViewController.m */; };
+		25FBBFD81B4966D60020B0C6 /* IQSongsCompilationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF971B4966D50020B0C6 /* IQSongsCompilationsViewController.m */; };
+		25FBBFD91B4966D60020B0C6 /* IQSongsComposersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF991B4966D50020B0C6 /* IQSongsComposersViewController.m */; };
+		25FBBFDA1B4966D60020B0C6 /* IQSongsGenreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF9B1B4966D50020B0C6 /* IQSongsGenreViewController.m */; };
+		25FBBFDB1B4966D60020B0C6 /* IQSongsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF9D1B4966D50020B0C6 /* IQSongsListViewController.m */; };
+		25FBBFDC1B4966D60020B0C6 /* IQSongsPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBF9F1B4966D50020B0C6 /* IQSongsPlaylistViewController.m */; };
+		25FBBFDD1B4966D60020B0C6 /* IQMediaCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFA21B4966D50020B0C6 /* IQMediaCaptureController.m */; };
+		25FBBFDE1B4966D60020B0C6 /* IQMediaCaptureController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FBBFA31B4966D50020B0C6 /* IQMediaCaptureController.xcassets */; };
+		25FBBFDF1B4966D60020B0C6 /* IQAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFA81B4966D50020B0C6 /* IQAudioSession.m */; };
+		25FBBFE01B4966D60020B0C6 /* IQCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFAA1B4966D50020B0C6 /* IQCaptureSession.m */; };
+		25FBBFE11B4966D60020B0C6 /* IQFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFAD1B4966D50020B0C6 /* IQFileManager.m */; };
+		25FBBFE21B4966D60020B0C6 /* IQBottomContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFB11B4966D60020B0C6 /* IQBottomContainerView.m */; };
+		25FBBFE31B4966D60020B0C6 /* IQFeatureOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFB51B4966D60020B0C6 /* IQFeatureOverlay.m */; };
+		25FBBFE41B4966D60020B0C6 /* IQMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFB71B4966D60020B0C6 /* IQMediaView.m */; };
+		25FBBFE51B4966D60020B0C6 /* IQPartitionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFBA1B4966D60020B0C6 /* IQPartitionBar.m */; };
+		25FBBFE61B4966D60020B0C6 /* IQPartitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFBC1B4966D60020B0C6 /* IQPartitionView.m */; };
+		25FBBFE71B4966D60020B0C6 /* IQ_DPMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFC01B4966D60020B0C6 /* IQ_DPMeterView.m */; };
+		25FBBFE81B4966D60020B0C6 /* IQ_PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFC31B4966D60020B0C6 /* IQ_PocketSVG.m */; };
+		25FBBFE91B4966D60020B0C6 /* mic.svg in Resources */ = {isa = PBXBuildFile; fileRef = 25FBBFC41B4966D60020B0C6 /* mic.svg */; };
+		25FBBFEA1B4966D60020B0C6 /* IQMediaPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFC61B4966D60020B0C6 /* IQMediaPickerController.m */; };
+		25FBBFEB1B4966D60020B0C6 /* IQMediaPickerControllerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FBBFC81B4966D60020B0C6 /* IQMediaPickerControllerConstants.m */; };
 		BFA500531B442B8C003BF7E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA500521B442B8C003BF7E2 /* Foundation.framework */; };
 		BFA500551B442B8C003BF7E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA500541B442B8C003BF7E2 /* CoreGraphics.framework */; };
 		BFA500571B442B8C003BF7E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA500561B442B8C003BF7E2 /* UIKit.framework */; };
@@ -34,6 +75,84 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25FBBF571B49538C0020B0C6 /* AssetsLibraryD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsLibraryD.h; sourceTree = "<group>"; };
+		25FBBF581B49538C0020B0C6 /* AssetsLibraryD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsLibraryD.m; sourceTree = "<group>"; };
+		25FBBF591B49538C0020B0C6 /* HCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCollectionViewCell.h; sourceTree = "<group>"; };
+		25FBBF5A1B49538C0020B0C6 /* HCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCollectionViewCell.m; sourceTree = "<group>"; };
+		25FBBF5B1B49538C0020B0C6 /* HySideScrollingImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySideScrollingImagePicker.h; sourceTree = "<group>"; };
+		25FBBF5C1B49538C0020B0C6 /* HySideScrollingImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySideScrollingImagePicker.m; sourceTree = "<group>"; };
+		25FBBF5D1B49538C0020B0C6 /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		25FBBF5E1B49538C0020B0C6 /* SideScrollingCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollingCheckCell.h; sourceTree = "<group>"; };
+		25FBBF5F1B49538C0020B0C6 /* SideScrollingCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollingCheckCell.m; sourceTree = "<group>"; };
+		25FBBF601B49538C0020B0C6 /* SideScrollingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollingLayout.h; sourceTree = "<group>"; };
+		25FBBF611B49538C0020B0C6 /* SideScrollingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollingLayout.m; sourceTree = "<group>"; };
+		25FBBF711B4966D50020B0C6 /* IQAlbumAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAlbumAssetsViewController.h; sourceTree = "<group>"; };
+		25FBBF721B4966D50020B0C6 /* IQAlbumAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAlbumAssetsViewController.m; sourceTree = "<group>"; };
+		25FBBF741B4966D50020B0C6 /* IQAssetsAlbumViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAssetsAlbumViewCell.h; sourceTree = "<group>"; };
+		25FBBF751B4966D50020B0C6 /* IQAssetsAlbumViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAssetsAlbumViewCell.m; sourceTree = "<group>"; };
+		25FBBF761B4966D50020B0C6 /* IQAssetsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAssetsCell.h; sourceTree = "<group>"; };
+		25FBBF771B4966D50020B0C6 /* IQAssetsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAssetsCell.m; sourceTree = "<group>"; };
+		25FBBF791B4966D50020B0C6 /* IQAssetsPickerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAssetsPickerShadowView.h; sourceTree = "<group>"; };
+		25FBBF7A1B4966D50020B0C6 /* IQAssetsPickerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAssetsPickerShadowView.m; sourceTree = "<group>"; };
+		25FBBF7B1B4966D50020B0C6 /* IQCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQCheckmarkView.h; sourceTree = "<group>"; };
+		25FBBF7C1B4966D50020B0C6 /* IQCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQCheckmarkView.m; sourceTree = "<group>"; };
+		25FBBF7D1B4966D50020B0C6 /* IQAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAssetsPickerController.h; sourceTree = "<group>"; };
+		25FBBF7E1B4966D50020B0C6 /* IQAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAssetsPickerController.m; sourceTree = "<group>"; };
+		25FBBF801B4966D50020B0C6 /* IQAudioPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAudioPickerController.h; sourceTree = "<group>"; };
+		25FBBF811B4966D50020B0C6 /* IQAudioPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAudioPickerController.m; sourceTree = "<group>"; };
+		25FBBF821B4966D50020B0C6 /* IQAudioPickerController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IQAudioPickerController.xcassets; sourceTree = "<group>"; };
+		25FBBF841B4966D50020B0C6 /* IQAudioPickerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAudioPickerUtility.h; sourceTree = "<group>"; };
+		25FBBF851B4966D50020B0C6 /* IQAudioPickerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAudioPickerUtility.m; sourceTree = "<group>"; };
+		25FBBF881B4966D50020B0C6 /* IQAudioPickerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAudioPickerShadowView.h; sourceTree = "<group>"; };
+		25FBBF891B4966D50020B0C6 /* IQAudioPickerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAudioPickerShadowView.m; sourceTree = "<group>"; };
+		25FBBF8B1B4966D50020B0C6 /* IQSongsAlbumViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsAlbumViewCell.h; sourceTree = "<group>"; };
+		25FBBF8C1B4966D50020B0C6 /* IQSongsAlbumViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsAlbumViewCell.m; sourceTree = "<group>"; };
+		25FBBF8D1B4966D50020B0C6 /* IQSongsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsCell.h; sourceTree = "<group>"; };
+		25FBBF8E1B4966D50020B0C6 /* IQSongsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsCell.m; sourceTree = "<group>"; };
+		25FBBF901B4966D50020B0C6 /* IQSongsListTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsListTableHeaderView.h; sourceTree = "<group>"; };
+		25FBBF911B4966D50020B0C6 /* IQSongsListTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsListTableHeaderView.m; sourceTree = "<group>"; };
+		25FBBF921B4966D50020B0C6 /* IQSongsAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsAlbumListViewController.h; sourceTree = "<group>"; };
+		25FBBF931B4966D50020B0C6 /* IQSongsAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsAlbumListViewController.m; sourceTree = "<group>"; };
+		25FBBF941B4966D50020B0C6 /* IQSongsArtistListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsArtistListViewController.h; sourceTree = "<group>"; };
+		25FBBF951B4966D50020B0C6 /* IQSongsArtistListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsArtistListViewController.m; sourceTree = "<group>"; };
+		25FBBF961B4966D50020B0C6 /* IQSongsCompilationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsCompilationsViewController.h; sourceTree = "<group>"; };
+		25FBBF971B4966D50020B0C6 /* IQSongsCompilationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsCompilationsViewController.m; sourceTree = "<group>"; };
+		25FBBF981B4966D50020B0C6 /* IQSongsComposersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsComposersViewController.h; sourceTree = "<group>"; };
+		25FBBF991B4966D50020B0C6 /* IQSongsComposersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsComposersViewController.m; sourceTree = "<group>"; };
+		25FBBF9A1B4966D50020B0C6 /* IQSongsGenreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsGenreViewController.h; sourceTree = "<group>"; };
+		25FBBF9B1B4966D50020B0C6 /* IQSongsGenreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsGenreViewController.m; sourceTree = "<group>"; };
+		25FBBF9C1B4966D50020B0C6 /* IQSongsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsListViewController.h; sourceTree = "<group>"; };
+		25FBBF9D1B4966D50020B0C6 /* IQSongsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsListViewController.m; sourceTree = "<group>"; };
+		25FBBF9E1B4966D50020B0C6 /* IQSongsPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSongsPlaylistViewController.h; sourceTree = "<group>"; };
+		25FBBF9F1B4966D50020B0C6 /* IQSongsPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSongsPlaylistViewController.m; sourceTree = "<group>"; };
+		25FBBFA11B4966D50020B0C6 /* IQMediaCaptureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQMediaCaptureController.h; sourceTree = "<group>"; };
+		25FBBFA21B4966D50020B0C6 /* IQMediaCaptureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQMediaCaptureController.m; sourceTree = "<group>"; };
+		25FBBFA31B4966D50020B0C6 /* IQMediaCaptureController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IQMediaCaptureController.xcassets; sourceTree = "<group>"; };
+		25FBBFA71B4966D50020B0C6 /* IQAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAudioSession.h; sourceTree = "<group>"; };
+		25FBBFA81B4966D50020B0C6 /* IQAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAudioSession.m; sourceTree = "<group>"; };
+		25FBBFA91B4966D50020B0C6 /* IQCaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQCaptureSession.h; sourceTree = "<group>"; };
+		25FBBFAA1B4966D50020B0C6 /* IQCaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQCaptureSession.m; sourceTree = "<group>"; };
+		25FBBFAC1B4966D50020B0C6 /* IQFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQFileManager.h; sourceTree = "<group>"; };
+		25FBBFAD1B4966D50020B0C6 /* IQFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQFileManager.m; sourceTree = "<group>"; };
+		25FBBFB01B4966D60020B0C6 /* IQBottomContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBottomContainerView.h; sourceTree = "<group>"; };
+		25FBBFB11B4966D60020B0C6 /* IQBottomContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBottomContainerView.m; sourceTree = "<group>"; };
+		25FBBFB41B4966D60020B0C6 /* IQFeatureOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQFeatureOverlay.h; sourceTree = "<group>"; };
+		25FBBFB51B4966D60020B0C6 /* IQFeatureOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQFeatureOverlay.m; sourceTree = "<group>"; };
+		25FBBFB61B4966D60020B0C6 /* IQMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQMediaView.h; sourceTree = "<group>"; };
+		25FBBFB71B4966D60020B0C6 /* IQMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQMediaView.m; sourceTree = "<group>"; };
+		25FBBFB91B4966D60020B0C6 /* IQPartitionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPartitionBar.h; sourceTree = "<group>"; };
+		25FBBFBA1B4966D60020B0C6 /* IQPartitionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPartitionBar.m; sourceTree = "<group>"; };
+		25FBBFBB1B4966D60020B0C6 /* IQPartitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPartitionView.h; sourceTree = "<group>"; };
+		25FBBFBC1B4966D60020B0C6 /* IQPartitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPartitionView.m; sourceTree = "<group>"; };
+		25FBBFBF1B4966D60020B0C6 /* IQ_DPMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQ_DPMeterView.h; sourceTree = "<group>"; };
+		25FBBFC01B4966D60020B0C6 /* IQ_DPMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQ_DPMeterView.m; sourceTree = "<group>"; };
+		25FBBFC21B4966D60020B0C6 /* IQ_PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQ_PocketSVG.h; sourceTree = "<group>"; };
+		25FBBFC31B4966D60020B0C6 /* IQ_PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQ_PocketSVG.m; sourceTree = "<group>"; };
+		25FBBFC41B4966D60020B0C6 /* mic.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mic.svg; sourceTree = "<group>"; };
+		25FBBFC51B4966D60020B0C6 /* IQMediaPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQMediaPickerController.h; sourceTree = "<group>"; };
+		25FBBFC61B4966D60020B0C6 /* IQMediaPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQMediaPickerController.m; sourceTree = "<group>"; };
+		25FBBFC71B4966D60020B0C6 /* IQMediaPickerControllerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQMediaPickerControllerConstants.h; sourceTree = "<group>"; };
+		25FBBFC81B4966D60020B0C6 /* IQMediaPickerControllerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQMediaPickerControllerConstants.m; sourceTree = "<group>"; };
 		BFA5004F1B442B8C003BF7E2 /* BoomEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA500521B442B8C003BF7E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFA500541B442B8C003BF7E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +199,306 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25FBBF541B49538C0020B0C6 /* 3rdLib */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF6F1B4966D50020B0C6 /* IQMediaPickerController */,
+				25FBBF551B49538C0020B0C6 /* WeiXinActionSheet */,
+			);
+			path = 3rdLib;
+			sourceTree = "<group>";
+		};
+		25FBBF551B49538C0020B0C6 /* WeiXinActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF561B49538C0020B0C6 /* ALAssetsLibrary */,
+				25FBBF591B49538C0020B0C6 /* HCollectionViewCell.h */,
+				25FBBF5A1B49538C0020B0C6 /* HCollectionViewCell.m */,
+				25FBBF5B1B49538C0020B0C6 /* HySideScrollingImagePicker.h */,
+				25FBBF5C1B49538C0020B0C6 /* HySideScrollingImagePicker.m */,
+				25FBBF5D1B49538C0020B0C6 /* ImageResources.bundle */,
+				25FBBF5E1B49538C0020B0C6 /* SideScrollingCheckCell.h */,
+				25FBBF5F1B49538C0020B0C6 /* SideScrollingCheckCell.m */,
+				25FBBF601B49538C0020B0C6 /* SideScrollingLayout.h */,
+				25FBBF611B49538C0020B0C6 /* SideScrollingLayout.m */,
+			);
+			path = WeiXinActionSheet;
+			sourceTree = "<group>";
+		};
+		25FBBF561B49538C0020B0C6 /* ALAssetsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF571B49538C0020B0C6 /* AssetsLibraryD.h */,
+				25FBBF581B49538C0020B0C6 /* AssetsLibraryD.m */,
+			);
+			path = ALAssetsLibrary;
+			sourceTree = "<group>";
+		};
+		25FBBF681B4954360020B0C6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF691B49543B0020B0C6 /* Show */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		25FBBF691B49543B0020B0C6 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Show;
+			sourceTree = "<group>";
+		};
+		25FBBF6F1B4966D50020B0C6 /* IQMediaPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF701B4966D50020B0C6 /* IQAssetsPickerController */,
+				25FBBF7F1B4966D50020B0C6 /* IQAudioPickerController */,
+				25FBBFA01B4966D50020B0C6 /* IQMediaCaptureController */,
+				25FBBFC51B4966D60020B0C6 /* IQMediaPickerController.h */,
+				25FBBFC61B4966D60020B0C6 /* IQMediaPickerController.m */,
+				25FBBFC71B4966D60020B0C6 /* IQMediaPickerControllerConstants.h */,
+				25FBBFC81B4966D60020B0C6 /* IQMediaPickerControllerConstants.m */,
+			);
+			path = IQMediaPickerController;
+			sourceTree = "<group>";
+		};
+		25FBBF701B4966D50020B0C6 /* IQAssetsPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF711B4966D50020B0C6 /* IQAlbumAssetsViewController.h */,
+				25FBBF721B4966D50020B0C6 /* IQAlbumAssetsViewController.m */,
+				25FBBF731B4966D50020B0C6 /* IQAssetPickerCell */,
+				25FBBF781B4966D50020B0C6 /* IQAssetPickerView */,
+				25FBBF7D1B4966D50020B0C6 /* IQAssetsPickerController.h */,
+				25FBBF7E1B4966D50020B0C6 /* IQAssetsPickerController.m */,
+			);
+			path = IQAssetsPickerController;
+			sourceTree = "<group>";
+		};
+		25FBBF731B4966D50020B0C6 /* IQAssetPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF741B4966D50020B0C6 /* IQAssetsAlbumViewCell.h */,
+				25FBBF751B4966D50020B0C6 /* IQAssetsAlbumViewCell.m */,
+				25FBBF761B4966D50020B0C6 /* IQAssetsCell.h */,
+				25FBBF771B4966D50020B0C6 /* IQAssetsCell.m */,
+			);
+			path = IQAssetPickerCell;
+			sourceTree = "<group>";
+		};
+		25FBBF781B4966D50020B0C6 /* IQAssetPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF791B4966D50020B0C6 /* IQAssetsPickerShadowView.h */,
+				25FBBF7A1B4966D50020B0C6 /* IQAssetsPickerShadowView.m */,
+				25FBBF7B1B4966D50020B0C6 /* IQCheckmarkView.h */,
+				25FBBF7C1B4966D50020B0C6 /* IQCheckmarkView.m */,
+			);
+			path = IQAssetPickerView;
+			sourceTree = "<group>";
+		};
+		25FBBF7F1B4966D50020B0C6 /* IQAudioPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF801B4966D50020B0C6 /* IQAudioPickerController.h */,
+				25FBBF811B4966D50020B0C6 /* IQAudioPickerController.m */,
+				25FBBF821B4966D50020B0C6 /* IQAudioPickerController.xcassets */,
+				25FBBF831B4966D50020B0C6 /* IQAudioPickerUtility */,
+				25FBBF861B4966D50020B0C6 /* IQAudioPIckerViewControllers */,
+			);
+			path = IQAudioPickerController;
+			sourceTree = "<group>";
+		};
+		25FBBF831B4966D50020B0C6 /* IQAudioPickerUtility */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF841B4966D50020B0C6 /* IQAudioPickerUtility.h */,
+				25FBBF851B4966D50020B0C6 /* IQAudioPickerUtility.m */,
+			);
+			path = IQAudioPickerUtility;
+			sourceTree = "<group>";
+		};
+		25FBBF861B4966D50020B0C6 /* IQAudioPIckerViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF871B4966D50020B0C6 /* IQAudioCellShadowView */,
+				25FBBF8A1B4966D50020B0C6 /* IQAudioPickerTableViewCell */,
+				25FBBF8F1B4966D50020B0C6 /* IQAudioPickerTableViewHeader */,
+				25FBBF921B4966D50020B0C6 /* IQSongsAlbumListViewController.h */,
+				25FBBF931B4966D50020B0C6 /* IQSongsAlbumListViewController.m */,
+				25FBBF941B4966D50020B0C6 /* IQSongsArtistListViewController.h */,
+				25FBBF951B4966D50020B0C6 /* IQSongsArtistListViewController.m */,
+				25FBBF961B4966D50020B0C6 /* IQSongsCompilationsViewController.h */,
+				25FBBF971B4966D50020B0C6 /* IQSongsCompilationsViewController.m */,
+				25FBBF981B4966D50020B0C6 /* IQSongsComposersViewController.h */,
+				25FBBF991B4966D50020B0C6 /* IQSongsComposersViewController.m */,
+				25FBBF9A1B4966D50020B0C6 /* IQSongsGenreViewController.h */,
+				25FBBF9B1B4966D50020B0C6 /* IQSongsGenreViewController.m */,
+				25FBBF9C1B4966D50020B0C6 /* IQSongsListViewController.h */,
+				25FBBF9D1B4966D50020B0C6 /* IQSongsListViewController.m */,
+				25FBBF9E1B4966D50020B0C6 /* IQSongsPlaylistViewController.h */,
+				25FBBF9F1B4966D50020B0C6 /* IQSongsPlaylistViewController.m */,
+			);
+			path = IQAudioPIckerViewControllers;
+			sourceTree = "<group>";
+		};
+		25FBBF871B4966D50020B0C6 /* IQAudioCellShadowView */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF881B4966D50020B0C6 /* IQAudioPickerShadowView.h */,
+				25FBBF891B4966D50020B0C6 /* IQAudioPickerShadowView.m */,
+			);
+			path = IQAudioCellShadowView;
+			sourceTree = "<group>";
+		};
+		25FBBF8A1B4966D50020B0C6 /* IQAudioPickerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF8B1B4966D50020B0C6 /* IQSongsAlbumViewCell.h */,
+				25FBBF8C1B4966D50020B0C6 /* IQSongsAlbumViewCell.m */,
+				25FBBF8D1B4966D50020B0C6 /* IQSongsCell.h */,
+				25FBBF8E1B4966D50020B0C6 /* IQSongsCell.m */,
+			);
+			path = IQAudioPickerTableViewCell;
+			sourceTree = "<group>";
+		};
+		25FBBF8F1B4966D50020B0C6 /* IQAudioPickerTableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBF901B4966D50020B0C6 /* IQSongsListTableHeaderView.h */,
+				25FBBF911B4966D50020B0C6 /* IQSongsListTableHeaderView.m */,
+			);
+			path = IQAudioPickerTableViewHeader;
+			sourceTree = "<group>";
+		};
+		25FBBFA01B4966D50020B0C6 /* IQMediaCaptureController */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFA11B4966D50020B0C6 /* IQMediaCaptureController.h */,
+				25FBBFA21B4966D50020B0C6 /* IQMediaCaptureController.m */,
+				25FBBFA31B4966D50020B0C6 /* IQMediaCaptureController.xcassets */,
+				25FBBFA41B4966D50020B0C6 /* IQMediaCaptureUtility */,
+				25FBBFAE1B4966D60020B0C6 /* IQMediaCaptureView */,
+				25FBBFBD1B4966D60020B0C6 /* Third Party */,
+			);
+			path = IQMediaCaptureController;
+			sourceTree = "<group>";
+		};
+		25FBBFA41B4966D50020B0C6 /* IQMediaCaptureUtility */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFA51B4966D50020B0C6 /* IQCaptureSession */,
+				25FBBFAB1B4966D50020B0C6 /* IQFileManager */,
+			);
+			path = IQMediaCaptureUtility;
+			sourceTree = "<group>";
+		};
+		25FBBFA51B4966D50020B0C6 /* IQCaptureSession */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFA61B4966D50020B0C6 /* IQAudioSession */,
+				25FBBFA91B4966D50020B0C6 /* IQCaptureSession.h */,
+				25FBBFAA1B4966D50020B0C6 /* IQCaptureSession.m */,
+			);
+			path = IQCaptureSession;
+			sourceTree = "<group>";
+		};
+		25FBBFA61B4966D50020B0C6 /* IQAudioSession */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFA71B4966D50020B0C6 /* IQAudioSession.h */,
+				25FBBFA81B4966D50020B0C6 /* IQAudioSession.m */,
+			);
+			path = IQAudioSession;
+			sourceTree = "<group>";
+		};
+		25FBBFAB1B4966D50020B0C6 /* IQFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFAC1B4966D50020B0C6 /* IQFileManager.h */,
+				25FBBFAD1B4966D50020B0C6 /* IQFileManager.m */,
+			);
+			path = IQFileManager;
+			sourceTree = "<group>";
+		};
+		25FBBFAE1B4966D60020B0C6 /* IQMediaCaptureView */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFAF1B4966D60020B0C6 /* IQBottomContainerView */,
+				25FBBFB21B4966D60020B0C6 /* IQMediaView */,
+				25FBBFB81B4966D60020B0C6 /* IQPartitionBar */,
+			);
+			path = IQMediaCaptureView;
+			sourceTree = "<group>";
+		};
+		25FBBFAF1B4966D60020B0C6 /* IQBottomContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFB01B4966D60020B0C6 /* IQBottomContainerView.h */,
+				25FBBFB11B4966D60020B0C6 /* IQBottomContainerView.m */,
+			);
+			path = IQBottomContainerView;
+			sourceTree = "<group>";
+		};
+		25FBBFB21B4966D60020B0C6 /* IQMediaView */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFB31B4966D60020B0C6 /* IQFeatureOverlay */,
+				25FBBFB61B4966D60020B0C6 /* IQMediaView.h */,
+				25FBBFB71B4966D60020B0C6 /* IQMediaView.m */,
+			);
+			path = IQMediaView;
+			sourceTree = "<group>";
+		};
+		25FBBFB31B4966D60020B0C6 /* IQFeatureOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFB41B4966D60020B0C6 /* IQFeatureOverlay.h */,
+				25FBBFB51B4966D60020B0C6 /* IQFeatureOverlay.m */,
+			);
+			path = IQFeatureOverlay;
+			sourceTree = "<group>";
+		};
+		25FBBFB81B4966D60020B0C6 /* IQPartitionBar */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFB91B4966D60020B0C6 /* IQPartitionBar.h */,
+				25FBBFBA1B4966D60020B0C6 /* IQPartitionBar.m */,
+				25FBBFBB1B4966D60020B0C6 /* IQPartitionView.h */,
+				25FBBFBC1B4966D60020B0C6 /* IQPartitionView.m */,
+			);
+			path = IQPartitionBar;
+			sourceTree = "<group>";
+		};
+		25FBBFBD1B4966D60020B0C6 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFBE1B4966D60020B0C6 /* DPMeterView */,
+				25FBBFC11B4966D60020B0C6 /* PocketSVG */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		25FBBFBE1B4966D60020B0C6 /* DPMeterView */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFBF1B4966D60020B0C6 /* IQ_DPMeterView.h */,
+				25FBBFC01B4966D60020B0C6 /* IQ_DPMeterView.m */,
+			);
+			path = DPMeterView;
+			sourceTree = "<group>";
+		};
+		25FBBFC11B4966D60020B0C6 /* PocketSVG */ = {
+			isa = PBXGroup;
+			children = (
+				25FBBFC21B4966D60020B0C6 /* IQ_PocketSVG.h */,
+				25FBBFC31B4966D60020B0C6 /* IQ_PocketSVG.m */,
+				25FBBFC41B4966D60020B0C6 /* mic.svg */,
+			);
+			path = PocketSVG;
+			sourceTree = "<group>";
+		};
 		BFA500461B442B8C003BF7E2 = {
 			isa = PBXGroup;
 			children = (
@@ -113,12 +532,14 @@
 		BFA500581B442B8C003BF7E2 /* BoomEat */ = {
 			isa = PBXGroup;
 			children = (
+				25FBBF541B49538C0020B0C6 /* 3rdLib */,
 				BFA500871B442E82003BF7E2 /* BaseViewController.h */,
 				BFA500881B442E82003BF7E2 /* BaseViewController.m */,
 				BFA500891B442E82003BF7E2 /* PathViewController.h */,
 				BFA5008A1B442E82003BF7E2 /* PathViewController.m */,
 				BFA500611B442B8C003BF7E2 /* BEAppDelegate.h */,
 				BFA500621B442B8C003BF7E2 /* BEAppDelegate.m */,
+				25FBBF681B4954360020B0C6 /* UI */,
 				BFA500641B442B8C003BF7E2 /* Images.xcassets */,
 				BFA500591B442B8C003BF7E2 /* Supporting Files */,
 			);
@@ -230,8 +651,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FBBFE91B4966D60020B0C6 /* mic.svg in Resources */,
+				25FBBFD01B4966D60020B0C6 /* IQAudioPickerController.xcassets in Resources */,
 				BFA5005D1B442B8C003BF7E2 /* InfoPlist.strings in Resources */,
 				BFA500651B442B8C003BF7E2 /* Images.xcassets in Resources */,
+				25FBBFDE1B4966D60020B0C6 /* IQMediaCaptureController.xcassets in Resources */,
+				25FBBF651B49538C0020B0C6 /* ImageResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +675,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FBBFD71B4966D60020B0C6 /* IQSongsArtistListViewController.m in Sources */,
+				25FBBFD61B4966D60020B0C6 /* IQSongsAlbumListViewController.m in Sources */,
 				BFA5005F1B442B8C003BF7E2 /* main.m in Sources */,
+				25FBBFDC1B4966D60020B0C6 /* IQSongsPlaylistViewController.m in Sources */,
+				25FBBFE41B4966D60020B0C6 /* IQMediaView.m in Sources */,
+				25FBBFE21B4966D60020B0C6 /* IQBottomContainerView.m in Sources */,
+				25FBBFCA1B4966D60020B0C6 /* IQAssetsAlbumViewCell.m in Sources */,
+				25FBBFE81B4966D60020B0C6 /* IQ_PocketSVG.m in Sources */,
+				25FBBFD31B4966D60020B0C6 /* IQSongsAlbumViewCell.m in Sources */,
+				25FBBFE31B4966D60020B0C6 /* IQFeatureOverlay.m in Sources */,
+				25FBBFE61B4966D60020B0C6 /* IQPartitionView.m in Sources */,
+				25FBBFDA1B4966D60020B0C6 /* IQSongsGenreViewController.m in Sources */,
+				25FBBFEB1B4966D60020B0C6 /* IQMediaPickerControllerConstants.m in Sources */,
+				25FBBFCF1B4966D60020B0C6 /* IQAudioPickerController.m in Sources */,
+				25FBBFD41B4966D60020B0C6 /* IQSongsCell.m in Sources */,
+				25FBBFE01B4966D60020B0C6 /* IQCaptureSession.m in Sources */,
+				25FBBFD21B4966D60020B0C6 /* IQAudioPickerShadowView.m in Sources */,
+				25FBBFEA1B4966D60020B0C6 /* IQMediaPickerController.m in Sources */,
+				25FBBFCE1B4966D60020B0C6 /* IQAssetsPickerController.m in Sources */,
+				25FBBFCC1B4966D60020B0C6 /* IQAssetsPickerShadowView.m in Sources */,
+				25FBBFDB1B4966D60020B0C6 /* IQSongsListViewController.m in Sources */,
+				25FBBFDF1B4966D60020B0C6 /* IQAudioSession.m in Sources */,
+				25FBBFCB1B4966D60020B0C6 /* IQAssetsCell.m in Sources */,
+				25FBBF631B49538C0020B0C6 /* HCollectionViewCell.m in Sources */,
+				25FBBF641B49538C0020B0C6 /* HySideScrollingImagePicker.m in Sources */,
+				25FBBFD51B4966D60020B0C6 /* IQSongsListTableHeaderView.m in Sources */,
+				25FBBFC91B4966D60020B0C6 /* IQAlbumAssetsViewController.m in Sources */,
+				25FBBFE71B4966D60020B0C6 /* IQ_DPMeterView.m in Sources */,
+				25FBBF661B49538C0020B0C6 /* SideScrollingCheckCell.m in Sources */,
+				25FBBFCD1B4966D60020B0C6 /* IQCheckmarkView.m in Sources */,
+				25FBBF621B49538C0020B0C6 /* AssetsLibraryD.m in Sources */,
 				BFA5008C1B442E82003BF7E2 /* PathViewController.m in Sources */,
+				25FBBFDD1B4966D60020B0C6 /* IQMediaCaptureController.m in Sources */,
+				25FBBFE51B4966D60020B0C6 /* IQPartitionBar.m in Sources */,
+				25FBBFD81B4966D60020B0C6 /* IQSongsCompilationsViewController.m in Sources */,
+				25FBBF671B49538C0020B0C6 /* SideScrollingLayout.m in Sources */,
 				BFA5008B1B442E82003BF7E2 /* BaseViewController.m in Sources */,
+				25FBBFD11B4966D60020B0C6 /* IQAudioPickerUtility.m in Sources */,
+				25FBBFD91B4966D60020B0C6 /* IQSongsComposersViewController.m in Sources */,
 				BFA500631B442B8C003BF7E2 /* BEAppDelegate.m in Sources */,
+				25FBBFE11B4966D60020B0C6 /* IQFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

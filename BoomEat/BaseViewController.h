@@ -26,8 +26,9 @@
 //
 
 @interface BaseViewController : UITabBarController
-{
-}
+
+@property (copy, nonatomic) void (^finishBlock)(NSArray *images);
+@property (copy, nonatomic) void (^cancelBlock)();
 
 // Create a view controller and setup it's tab bar item with a title and image
 -(UIViewController*) viewControllerWithTabTitle:(NSString*)title image:(UIImage*)image;
